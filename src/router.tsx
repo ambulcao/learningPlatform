@@ -4,8 +4,8 @@ import { Event } from "./pages/Event";
 export function Router(){
     return (
         <Routes>
-            <Route path="/" element={<h1>Home</h1>} />
-            <Route path="/event" element={<Event/>} />
+            <Route path="/1" element={<h1>Home</h1>} />
+            <Route path="/" element={<Event/>} />
             <Route path="/event/lesson/:slug" element={<Event/>} />
         </Routes>
     );
