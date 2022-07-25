@@ -1,4 +1,4 @@
-import LogoGong from "../assets/SurfTime-removebg-preview-LogoOriginal.png"
+import LogoGong from "../assets/Surfing-Transparent-Background.png"
 
 export function Logo() {
   return (
@@ -21,7 +21,7 @@ export function Logo() {
     </svg>*/
     <div>
       <div>
-        <img src={LogoGong}/>
+        <img src={LogoGong} width={300} height={300}/>
       </div>
       <div className="text-center">
         <h1>Training to improve surfing today</h1>
